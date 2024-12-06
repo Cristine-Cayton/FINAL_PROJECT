@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Tonkee Anik-Anik</title>
+    <link rel="icon" href="WEB DESIGN LOGO _ TONKEE ANIK ANIK.png" type="image/x-icon">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body { 
+            background-color: #E6E0D4; /* Light beige color for background */ 
+            font-family: Arial, sans-serif; 
+        } 
+ 
+        #header { 
+            width: 100%; 
+            background-color: rgb(254, 180, 180);
+            height: 80px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 0 20px; 
+            margin-bottom: 25px; 
+        } 
+ 
+        #logo-div img { 
+            max-width: 150px; /* Fixed logo size */ 
+            max-height: 60px; 
+        } 
+ 
+        #nav-div { 
+            font-size: 18px; 
+            text-align: right; 
+        } 
+ 
+        #nav-div a { 
+            margin: 0 15px; 
+            text-decoration: none; 
+            color: white; /* White navigation text */ 
+            font-weight: bold; 
+        } 
+ 
+        #nav-div a:hover { 
+            color: #FFD700; /* Gold hover effect */ 
+        } 
+ 
+        #wrapper-div { 
+            padding: 15px; 
+        } 
+ 
+        #header-banner-div { 
+ 
+            font-size: 24px; 
+            color: #333; 
+            text-align: center; 
+            padding: 20px; 
+            margin-bottom: 25px; 
+            font-weight: bold; /* Making text bold */ 
+        } 
+ 
+        #intro-text-div { 
+            font-size: 18px; 
+            color: #0000; 
+            text-align: center; 
+            padding: 20px; 
+            margin-bottom: 25px; 
+            background-color: transparent; /* Removed white background */ 
+        } 
+ 
+        #footer-div { 
+            font-size: 16px; 
+            background-color:rgb(254, 180, 180); 
+            color: white; 
+            text-align: center; 
+            padding: 15px; 
+            margin-top: 25px; 
+        } 
+ 
+        /* Social Media Icons in Footer */ 
+        #social-icons { 
+            text-align: center; 
+            margin-bottom: 15px; 
+        } 
+ 
+        #social-icons a { 
+            font-size: 30px; /* Normal icon size */ 
+            color: white; 
+            margin: 0 15px; /* Adequate spacing between icons */ 
+            text-decoration: none; 
+        } 
+ 
+        #social-icons a:hover { 
+            color: rgb(254, 180, 180);
+        } 
+  
+        /* Menu Section */ 
+        #menu-section { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+            gap: 20px; 
+            margin-top: 20px; 
+        } 
+ 
+        .menu-item { 
+            background-color: #fff; 
+            padding: 15px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+            text-align: center; 
+        } 
+ 
+        .menu-item img { 
+            width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+            margin-bottom: 15px; 
+        } 
+ 
+        .menu-item h3 { 
+            font-size: 20px; 
+            color: rgb(254, 180, 180); 
+        } 
+ 
+        .menu-item p { 
+            font-size: 14px; 
+            color: #333; 
+        } 
+ 
+        .menu-item .price { 
+            font-size: 18px; 
+            font-weight: bold; 
+            color: rgb(254, 180, 180); 
+        } 
+ 
+        /* Responsive adjustments */ 
+        @media (max-width: 768px) { 
+            #header { 
+                flex-direction: column; 
+  
+                align-items: center; 
+            } 
+ 
+            #logo-div, #nav-div { 
+                width: 100%; 
+                text-align: center; 
+            } 
+ 
+            #nav-div { 
+                font-size: 20px; 
+                margin-top: 10px; 
+            } 
+ 
+            #header-banner-div, #intro-text-div { 
+                font-size: 20px; 
+            } 
+ 
+            #footer-div { 
+                font-size: 18px; 
+            } 
+        } 
+    </style> 
+</head> 
+<body> 
+ 
+    <div id="header"> 
+        <div id="logo-div"> 
+            <a href="index.html"><img src="WEB DESIGN LOGO _ TONKEE ANIK ANIK.png" alt="TONKEE ANIK-ANIK" 
+Logo"></a> 
+        </div> 
+        <div id="nav-div">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="products.html">Contact US</a>
+        </div> 
+    </div> 
+ 
+    <div id="wrapper-div"> 
+        <div id="header-banner-div"> 
+            Our Menu <!-- This text is now bold --> 
+            <div id="intro-text-div"> 
+                <p>HELLO ANIK ANIK GIRLIES!
+            </div> 
+     
+            <!-- Menu Section --> 
+            <div id="menu-section"> 
+                <div class="menu-item"> 
+                    <img src="STUFF TOYS.jpg" alt="STUFF TOYS"> 
+                    <h3>STUFF TOYS</h3> 
+                    <p>HUG THIS TOYS FOR UR OWN GOOD.</p> 
+                    <p class="price">300.00</p> 
+                </div> 
+                <div class="menu-item"> 
+                    <img src="STICKER.jpg" alt="STICKERS"> 
+                    <h3>STICKERS</h3> 
+                    <p>PASTE THIS CUTES STICKERS ANYWHERE U WANT!</p> 
+                    <p class="price">25.00</p> 
+                </div> 
+                <div class="menu-item"> 
+                    <img src="KEYCHAINS.jpg" alt="KEYCHAINS"> 
+                    <h3>KEYCHAINS</h3> 
+                    <p>CAN ENHANCE UR BAGS WITH THIS CUTE KEYCHAINS</p> 
+                    <p class="price">120.00</p> 
+                </div> 
+                <!-- Add more items as needed --> 
+            </div> 
+        </div> 
+        <br><br><br><br><br> 
+        <br><br><br><br><br> 
+     
+      <!-- Add this line in the <head> section to include Font Awesome --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font
+    awesome/5.15.3/css/all.min.css"> 
+     
+    <!-- In the footer --> 
+    <div id="footer-div"> 
+    <div id="social-icons"> 
+    </a> 
+    </div> 
+    &copy; 2024 TONKEE ANIK-ANIK PH. All rights reserved. 
+    </div> 
+    </body> 
+    </html>
